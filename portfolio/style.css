@@ -1,0 +1,116 @@
+a {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+}
+.body {
+    display: flex;
+    max-width: 1440px;
+    background-color: #000;
+    flex-direction: column;
+}
+
+.header {
+    display:flex;
+    max-width: 1440px;
+    height: 90px;
+    background: url('./assents/img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+.header-logo {
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    transition: 0.3s;
+    max-width: 50px;
+    margin-left: 20px;
+}
+.header-logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+  }
+.nav {
+    display: flex;
+    flex: 1 1 auto;
+}
+.nav-list {
+    margin: auto 0 auto 800px;
+    margin-left: auto;
+
+}
+.nav-link {
+    display: inline;
+    list-style: none;
+    margin-left: auto;
+    transition: .3s;
+    padding: 0 20px;
+    line-height: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: Inter;
+}
+.language {
+    display: flex;
+    margin: auto 0;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: Inter;
+}
+.main {
+    display: flex;
+    max-width: 1440px;
+    height: 820px;
+    background: url('./assents/img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center -90px;
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 500px;
+    line-height: 120px;
+    padding-top: 160px;
+    padding-left: 80px;
+    font-size: 60px;
+
+}
+.hero-title {
+    display: flex;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+.hero-text {
+    display: flex;
+    color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;  
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.hero-button {
+    background-color: #BDAE82;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;  
+    width: 220px;
+    height: 55px;
+    text-align: center;
+
+}
+.footer {
+    display: flex;
+    background-color: cornflowerblue;
+}
