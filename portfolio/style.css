@@ -168,6 +168,8 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 60px;
+
 }    
 .skill-item {
     display: flex;
@@ -200,6 +202,76 @@ p {
 .skill-item:nth-child(4) {
     background-image: url('./assents/svg/mic.svg');
     background-size: 62px 50px;
+}
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+    width: 1440px;
+}
+.portfolio-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    height: 80px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+}
+.portfolio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 5px;
+}
+.portfolio-button {
+    background-color: #000;
+    border: 2px solid #BDAE82;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: #BDAE82;
+    font-size: 20px;
+    line-height: 40px;  
+    width: 220px;
+    height: 55px;
+    text-align: center;
+    cursor: pointer;
+}
+.portfolio-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1145px;
+    width: 1400px;
+    gap: 25px 25px;
+    margin: 0 20px;
+    }
+.portfolio-img {
+    display: flex;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 450px;
+      }
+.portfolio-img:nth-child(1) {
+        background-image: url('./assents/img/portfolio-img.jpg');
+}
+.portfolio-img:nth-child(2) {
+    background-image: url('./assents/img/portfolio-img\ \(1\).jpg');
+}
+.portfolio-img:nth-child(3) {
+    background-image: url('./assents/img/portfolio-img\ \(2\).jpg');
+}
+.portfolio-img:nth-child(4) {
+    background-image: url('./assents/img/portfolio-img\ \(3\).jpg');
+}
+.portfolio-img:nth-child(5) {
+    background-image: url('./assents/img/portfolio-img\ \(4\).jpg');
+}
+.portfolio-img:nth-child(6) {
+    background-image: url('./assents/img/portfolio-img\ \(5\).jpg');
 }
 
 .footer {
