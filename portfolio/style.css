@@ -273,7 +273,30 @@ p {
 .portfolio-img:nth-child(6) {
     background-image: url('./assents/img/portfolio-img\ \(5\).jpg');
 }
-
+.video {
+    display: flex;
+    flex-direction: column;
+    height: 945px;
+    width: 1440px;
+}
+.video-player {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 20px 0 20px;
+  }
+.video-button {
+    position:absolute;
+    background: transparent;;
+    text-align: center;
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    border: 0;
+    margin-top: 528px;
+    margin-left: 656px;
+}
 .footer {
     display: flex;
     background-color: cornflowerblue;
